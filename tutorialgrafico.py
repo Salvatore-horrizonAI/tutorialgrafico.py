@@ -1,7 +1,7 @@
 #tutorial Salvatore Naro
 import matplotlib.pyplot as plt 
 array = [1,2,3,4,5,6,7]
-plt.figure(1,figsize=(7,4),facecolor="black")#creiamo il grafico e li diamo delle dimensioni e il colore
+plt.figure(1,figsize=(7,4),facecolor="black")
 plt.plot(array,marker="o",color="cyan")
 plt.xlabel("X",color="white")
 plt.ylabel("Y",color="white")
